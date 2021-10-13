@@ -10,8 +10,45 @@
     border: 1px solid #000;
 }
 
-[class*="container"]{ 
+/* [class*="container"]{ 
     min-height: 60px;
     background-color: bisque;
     border: 1px solid #fff;
+} */
+
+/* body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header */
+header {    
+    font-family: Helvetica, sans-serif;
+}
+#sony{
+    background-color: #000;
+    color: #fff;
+    text-align: end;
+    font-size: 1.2rem;
+    padding: 1.2rem;
+    letter-spacing: .3rem;
+    line-height: 0;
+}
+header .navbar {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    line-height: 2.5rem;
+}
+header nav .container-fluid div:last-child{
+    flex-grow: 0;
+}
+#search img{
+    width: 55%;
+}
+/* classe btn modifiche */
+.btn{
+    border-radius: 1.25rem;
+}
+header .navbar-light .navbar-nav .nav-link {
+    color: rgb(0,0,0);
 }
