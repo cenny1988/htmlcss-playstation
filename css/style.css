@@ -1,9 +1,9 @@
 /* debug */
-[class*="col-"]{
+/* [class*="col-"]{
     min-height: 20px;
     background-color: rgb(67, 67, 247);
     border: 1px solid #fff;
-}
+} */
 .row>{
     min-height: 40px;
     background-color: rgb(49, 247, 125);
@@ -45,6 +45,9 @@ header nav .container-fluid div:last-child{
 #search img{
     width: 55%;
 }
+header .navbar-light .navbar-nav .nav-link {
+    color: rgb(0,0,0);
+}
 /* classe btn modifiche */
 .ms_btn{
     border-radius: 1.25rem;
@@ -67,6 +70,24 @@ header nav .container-fluid div:last-child{
     border-color: #212529;
 }
 
-header .navbar-light .navbar-nav .nav-link {
-    color: rgb(0,0,0);
+/* Jumbotron style */
+#jumbotron{
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 400px;
+    background-size: cover;
+    /* margin-bottom: 30px;    */
+}
+#jumbotron{
+    /* min-height: 550px; */
+    color: #fff;   
+}
+#jumbotron img{
+    width: 30%;
+}
+.ms_btn-red{
+    color: #fff;
+    background-color: #cd3d0f;
+    border-color: #cd3d0f;
 }
