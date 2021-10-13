@@ -71,7 +71,7 @@ header .navbar-light .navbar-nav .nav-link {
 }
 
 /* Jumbotron style */
-#jumbotron{
+#jumbo-bg{
     background-image: url(../img/jumbo-bg.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -83,11 +83,15 @@ header .navbar-light .navbar-nav .nav-link {
     /* min-height: 550px; */
     color: #fff;   
 }
-#jumbotron img{
+#jumbotron #ms_jumbo-banner{
     width: 30%;
 }
 .ms_btn-red{
     color: #fff;
     background-color: #cd3d0f;
     border-color: #cd3d0f;
+}
+#jumbotron img{
+    width: 100%;
+    border-radius: 10px;
 }
