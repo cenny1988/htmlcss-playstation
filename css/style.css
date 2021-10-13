@@ -46,9 +46,27 @@ header nav .container-fluid div:last-child{
     width: 55%;
 }
 /* classe btn modifiche */
-.btn{
+.ms_btn{
     border-radius: 1.25rem;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
 }
+.ms_btn-dark {
+    color: #fff;
+    background-color: #212529;
+    border-color: #212529;
+}
+
 header .navbar-light .navbar-nav .nav-link {
     color: rgb(0,0,0);
 }
