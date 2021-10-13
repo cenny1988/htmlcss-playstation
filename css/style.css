@@ -113,6 +113,6 @@ header .navbar-light .navbar-nav .nav-link {
     background-color: #2d64e6;
     border-color: #2d64e6;
 }
-#presentation .container div.row:not(:first-child) img{
+#presentation img{
     width: 100%;
 }
