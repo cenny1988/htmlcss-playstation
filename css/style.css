@@ -103,7 +103,16 @@ header .navbar-light .navbar-nav .nav-link {
 }
 #presentation h5{
     color: #9d9d9d;
+    margin-bottom: 1rem;
 }
 #presentation h6{
     color: #68aae1;
+}
+.ms_btn-blue{
+    color: #fff;
+    background-color: #2d64e6;
+    border-color: #2d64e6;
+}
+#presentation .container div.row:not(:first-child) img{
+    width: 100%;
 }
