@@ -95,3 +95,15 @@ header .navbar-light .navbar-nav .nav-link {
     width: 100%;
     border-radius: 10px;
 }
+
+
+/* presentation  */
+#presentation h2{
+    padding-bottom: 1rem;
+}
+#presentation h5{
+    color: #9d9d9d;
+}
+#presentation h6{
+    color: #68aae1;
+}
