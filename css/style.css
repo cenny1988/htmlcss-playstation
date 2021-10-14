@@ -105,6 +105,13 @@ header .navbar-light .navbar-nav .nav-link {
     width: 100%;
 }
 
+@media all and (min-width:992px) {
+    .ms_container-lg{
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+
 /* sezione adventure */
 #adv-bg{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
