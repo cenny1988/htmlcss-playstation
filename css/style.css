@@ -81,9 +81,11 @@ header .navbar-light .navbar-nav .nav-link {
 }
 #jumbotron, #adventure{  
     color: #fff;
+}
+#jumbotron{  
     padding-top: 98.4px;
 }
-#jumbotron .row:first-child, #adventure .row:first-child{
+#jumbotron>#jumbo-bg>.container>.row, #adventure>#adv-bg>.container>.row{
     min-height: 500px;
 }
 .ms_banner > img{
@@ -101,15 +103,15 @@ header .navbar-light .navbar-nav .nav-link {
 }
 
 
-/* presentation  */
-#presentation h2{
+/* presentation e explore */
+.ms_sez-white h2{
     padding-bottom: 1rem;
 }
-#presentation h5{
+.ms_sez-white h5{
     color: #9d9d9d;
     margin-bottom: 1rem;
 }
-#presentation h6{
+.ms_sez-white h6{
     color: #68aae1;
 }
 .ms_btn-blue{
@@ -117,7 +119,7 @@ header .navbar-light .navbar-nav .nav-link {
     background-color: #2d64e6;
     border-color: #2d64e6;
 }
-#presentation img{
+.ms_sez-white img{
     width: 100%;
 }
 
