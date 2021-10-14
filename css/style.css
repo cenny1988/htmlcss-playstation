@@ -143,10 +143,23 @@ header .navbar-light .navbar-nav .nav-link {
     padding-bottom: 15px;
 }
 
-/* sezione PS+ */
+/* sezione PS+ e PS Now */
 #ps-plus{
     background-color: #bebcbb;
 }
+#ps-now{
+    background-color: #161c3b;
+    color: #fff;
+}
 .ms_sez-ps img{
     width: 100%;
+    padding-bottom: 2rem;
+}
+.ms_btn-grey{
+    background-color: #d9dadc;
+    color: #2d64e6;
+}
+.ms_btn-light-grey{
+    background-color: #f5f5f5;
+    color: #000;
 }
