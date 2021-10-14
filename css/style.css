@@ -167,3 +167,25 @@ header .navbar-light .navbar-nav .nav-link {
     color: #000;
 }
 
+/* footer */
+footer{
+    background-color: #07439c;
+    color: #fff;
+    padding: 4rem 0;
+}
+footer>.container>.row>.col-12.col-lg-6>img:first-child{
+    margin-bottom: 2rem;
+    display: block;
+}
+footer>.container>.row>.col-12.col-lg-6>img:nth-child(2){
+    height: 1rem;
+    margin-right: .6rem;
+}
+
+footer ul{
+    list-style: none;
+}
+footer .container .row:nth-child(2) .col-12.col-lg-6 img{
+    height: 2.5rem;
+    display: block;
+}
