@@ -142,3 +142,11 @@ header .navbar-light .navbar-nav .nav-link {
     border-radius: 10px;
     padding-bottom: 15px;
 }
+
+/* sezione PS+ */
+#ps-plus{
+    background-color: #bebcbb;
+}
+.ms_sez-ps img{
+    width: 100%;
+}
