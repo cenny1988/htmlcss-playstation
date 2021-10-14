@@ -19,6 +19,7 @@ header {
 }
 #sony img{
     height: 1.2rem;
+    cursor: pointer;
 }
 header .navbar {
     padding-top: 0rem;
