@@ -209,10 +209,14 @@ header .navbar-light .navbar-nav .nav-link:hover {
 }
 
 /* effetti hover sezione PS+ PS Now */
-.ms_btn-grey:hover, .ms_btn-light-grey:hover{
-    opacity: .8;
+.ms_btn-grey:hover{
+    border: 2px solid #bebcbb;
+    box-shadow: 0px 0px 0px 2px #d9dadc;
 }
-
+.ms_btn-light-grey:hover{
+    border: 2px solid #161c3b;
+    box-shadow: 0px 0px 0px 2px #f5f5f5;
+}
 /* footer */
 footer{
     background-color: #07439c;
