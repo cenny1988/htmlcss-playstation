@@ -79,16 +79,15 @@ header .navbar-light .navbar-nav .nav-link {
     /* padding-top: 400px; */
     background-size: cover;
 }
-#jumbotron{
-    /* min-height: 550px; */
-    color: #fff;   
+#jumbotron, #adventure{  
+    color: #fff;
     padding-top: 98.4px;
 }
-#jumbotron>.row{
+#jumbotron .row:first-child, #adventure .row:first-child{
     min-height: 500px;
 }
-#jumbotron #ms_jumbo-banner{
-    max-width: 30%;
+.ms_banner > img{
+    max-width: 45%;
     padding-bottom: 20px;
 }
 .ms_btn-red{
@@ -120,4 +119,13 @@ header .navbar-light .navbar-nav .nav-link {
 }
 #presentation img{
     width: 100%;
+}
+
+/* sezione adventure */
+#adv-bg{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* padding-top: 400px; */
+    background-size: cover;
 }
