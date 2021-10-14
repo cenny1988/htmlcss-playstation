@@ -235,6 +235,9 @@ footer .container .row:nth-child(2) .col-12.col-lg-6 img{
     height: 2.5rem;
     display: block;
 }
+footer .container div:last-child div p>a{
+    text-decoration: underline;
+}
 
 /* effetti hover del footer */
 footer a:hover{
