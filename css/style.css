@@ -103,7 +103,7 @@ header .navbar-light .navbar-nav .nav-link {
 }
 
 
-/* presentation e explore */
+/* presentation e explore e sales e social*/
 .ms_sez-white h2{
     padding-bottom: 1rem;
 }
@@ -151,6 +151,9 @@ header .navbar-light .navbar-nav .nav-link {
     background-color: #161c3b;
     color: #fff;
 }
+.ms_sez-ps{
+    padding: 2rem 0;
+}
 .ms_sez-ps img{
     width: 100%;
     padding-bottom: 2rem;
@@ -163,3 +166,4 @@ header .navbar-light .navbar-nav .nav-link {
     background-color: #f5f5f5;
     color: #000;
 }
+
