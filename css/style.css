@@ -76,7 +76,7 @@ header .navbar-light .navbar-nav .nav-link {
     background-image: url(../img/jumbo-bg.png);
     background-position: center;
     background-repeat: no-repeat;
-    padding-top: 400px;
+    /* padding-top: 400px; */
     background-size: cover;
 }
 #jumbotron{
@@ -84,8 +84,12 @@ header .navbar-light .navbar-nav .nav-link {
     color: #fff;   
     padding-top: 98.4px;
 }
+#jumbotron>.row{
+    min-height: 500px;
+}
 #jumbotron #ms_jumbo-banner{
-    width: 30%;
+    max-width: 30%;
+    padding-bottom: 20px;
 }
 .ms_btn-red{
     color: #fff;
