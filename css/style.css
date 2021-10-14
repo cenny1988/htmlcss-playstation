@@ -38,6 +38,7 @@ header .navbar {
     padding-top: 0rem;
     padding-bottom: 0rem;
     line-height: 2.5rem;
+    background-color: #fff;
 }
 header nav .container-fluid div:last-child{
     flex-grow: 0;
@@ -77,11 +78,11 @@ header .navbar-light .navbar-nav .nav-link {
     background-repeat: no-repeat;
     padding-top: 400px;
     background-size: cover;
-    /* margin-bottom: 30px;    */
 }
 #jumbotron{
     /* min-height: 550px; */
     color: #fff;   
+    padding-top: 98.4px;
 }
 #jumbotron #ms_jumbo-banner{
     width: 30%;
