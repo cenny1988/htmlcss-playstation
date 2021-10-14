@@ -2,6 +2,10 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+a{
+    text-decoration: none;
+    color: #fff;
+}
 
 /* header */
 header {    
@@ -43,7 +47,7 @@ header .navbar-light .navbar-nav .nav-link {
     vertical-align: middle;
     cursor: pointer;
     background-color: transparent;
-    border: 1px solid transparent;
+    border: 2px solid transparent;
     padding: .375rem .75rem;
     font-size: 1rem;
 }
@@ -51,6 +55,14 @@ header .navbar-light .navbar-nav .nav-link {
     color: #fff;
     background-color: #212529;
     border-color: #212529;
+}
+/* effetti hover della sez header */
+header .navbar-light .navbar-nav .nav-link:hover {
+    color: #2d64e6;
+}
+.ms_btn-dark:hover {
+    border: 2px solid #999;
+    box-shadow: inset 0px 0px 0px 2px #999;
 }
 
 /* Jumbotron style */
@@ -71,7 +83,7 @@ header .navbar-light .navbar-nav .nav-link {
     min-height: 500px;
 }
 .ms_banner > img{
-    max-width: 45%;
+    max-width: 60%;
     padding-bottom: 20px;
 }
 .ms_btn-red{
@@ -79,11 +91,30 @@ header .navbar-light .navbar-nav .nav-link {
     background-color: #cd3d0f;
     border-color: #cd3d0f;
 }
-#jumbotron img{
+
+
+#jumbotron div:nth-child(2) img{
     width: 100%;
-    border-radius: 10px;
+    border-radius: 1.25rem;
+    padding: .25rem;
+    border: 1px solid transparent;
+    margin-top: 0.5rem;
+    transition: all 1s;
 }
 
+/* effetti hover della sez jumbo */
+.ms_btn-red:hover {
+    border: 2px solid #dd4d21;
+    box-shadow: inset 0px 0px 0px 2px #dd4d21;
+}
+
+#jumbotron div:nth-child(2) img:hover{
+    margin-top: 0;
+}
+
+#jumbotron div:nth-child(2) img.active{
+    border-color: #2d64e6;
+}
 
 /* presentation e explore e sales e social*/
 .ms_sez-white h2{
@@ -101,8 +132,27 @@ header .navbar-light .navbar-nav .nav-link {
     background-color: #2d64e6;
     border-color: #2d64e6;
 }
+.ms_btn-blue:hover{
+    border: 2px solid #718ed1;
+    box-shadow: inset 0px 0px 0px 2px #718ed1;
+}
 .ms_sez-white img{
     width: 100%;
+}
+
+/* effetti hover e select della sezione presentation */
+#presentation .container div:nth-child(3) .col>img {
+    opacity: .8;
+}
+#presentation .container div:nth-child(3) .col>img:hover {
+    opacity: 1;
+}
+
+#presentation .select{
+    border-bottom: 3px solid #2d64e6;
+}
+#presentation .container div:nth-child(3) .col.select>img{
+    opacity: 1;
 }
 
 @media all and (min-width:992px) {
@@ -126,10 +176,12 @@ header .navbar-light .navbar-nav .nav-link {
     background-color: #1f1f1f;
     color: #fff;
 }
+
 #new-releases img{
     width: 100%;
     border-radius: 10px;
     padding-bottom: 15px;
+    cursor: pointer;
 }
 
 /* sezione PS+ e PS Now */
@@ -156,6 +208,11 @@ header .navbar-light .navbar-nav .nav-link {
     color: #000;
 }
 
+/* effetti hover sezione PS+ PS Now */
+.ms_btn-grey:hover, .ms_btn-light-grey:hover{
+    opacity: .8;
+}
+
 /* footer */
 footer{
     background-color: #07439c;
@@ -177,4 +234,10 @@ footer ul{
 footer .container .row:nth-child(2) .col-12.col-lg-6 img{
     height: 2.5rem;
     display: block;
+}
+
+/* effetti hover del footer */
+footer a:hover{
+    text-decoration: none;
+    color: rgb(223, 223, 223);
 }
