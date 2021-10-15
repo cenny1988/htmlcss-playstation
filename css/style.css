@@ -33,7 +33,7 @@ header nav .container-fluid div:last-child{
     flex-grow: 0;
 }
 #search img{
-    width: 55%;
+    max-height: 30px;
 }
 header .navbar-light .navbar-nav .nav-link {
     color: rgb(0,0,0);
@@ -42,17 +42,22 @@ header .navbar-light .navbar-nav .nav-link {
     color: rgba(0,0,0,.5);
 }
 
+@media all and (max-width:992px) {
+    #accedi{
+        width: 50%;
+        text-align: center;
+    }
+    #search{
+        border: #999 1px solid;
+    }
+}
 
 /* modifiche css BS dropdown menu */
 .dropdown{
     position: static;
 }
 .dropdown-menu {
-    width: 100vw;
-}
-.navbar-expand-lg .navbar-nav .dropdown-menu {
-    position: absolute;
-    top: 55px;
+    width: 100%;
 }
 div.dropdown-menu{
     text-align: center;
@@ -61,7 +66,7 @@ div.dropdown-menu li{
     display: inline-block;
 }
 .ms_sub-menu{
-    border-top: 1px solid #000;
+    border-top: 1px solid #999;
 }
 .ms_fake-circle-fill{
     border-radius: 50%;
