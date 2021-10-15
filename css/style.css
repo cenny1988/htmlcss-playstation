@@ -26,6 +26,8 @@ header .navbar {
     padding-bottom: 0rem;
     line-height: 2.5rem;
     background-color: #fff;
+    /* modifica per dropdown menu */
+    position: relative;
 }
 header nav .container-fluid div:last-child{
     flex-grow: 0;
@@ -36,6 +38,42 @@ header nav .container-fluid div:last-child{
 header .navbar-light .navbar-nav .nav-link {
     color: rgb(0,0,0);
 }
+.navbar-light .navbar-nav .nav-link.active{
+    color: rgba(0,0,0,.5);
+}
+
+
+/* modifiche css BS dropdown menu */
+.dropdown{
+    position: static;
+}
+.dropdown-menu {
+    width: 100vw;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+    top: 55px;
+}
+div.dropdown-menu{
+    text-align: center;
+}
+div.dropdown-menu li{
+    display: inline-block;
+}
+.ms_sub-menu{
+    border-top: 1px solid #000;
+}
+.ms_fake-circle-fill{
+    border-radius: 50%;
+    height: 8px;
+    width: 8px;
+    display: inline-block;
+    background-color: #2d64e6;
+    margin-right: .5rem;
+}
+
+
+
 /* classe btn modifiche */
 .ms_btn{
     border-radius: 1.25rem;
@@ -109,6 +147,7 @@ header .navbar-light .navbar-nav .nav-link:hover {
     border: 2px solid #000;
     box-shadow: 0px 0px 0px 2px #dd4d21;
 } */
+
 /* effetto hover inset */
 .ms_btn-red:hover {
     border: 2px solid #dd4d21;
@@ -225,7 +264,6 @@ header .navbar-light .navbar-nav .nav-link:hover {
 
 /* effetti hover sezione PS+ PS Now */
 .ms_btn-grey:hover{
-    /* border: 2px solid #bebcbb; */
     box-shadow: 0px 0px 10px 2px #d9dadc;
 }
 .ms_btn-light-grey:hover{
