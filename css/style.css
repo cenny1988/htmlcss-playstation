@@ -202,12 +202,7 @@ header .navbar-light .navbar-nav .nav-link:hover {
 #presentation .container div:nth-child(3) .col.select>img{
     opacity: 1;
 }
-/* effetto hover outset button blue */
-/* .ms_btn-blue:hover{
-    border: 2px solid #fff;
-    box-shadow: 0px 0px 0px 2px #2d64e6;
-} */
-/* effetto inset button blue */
+/* effetto hover button blue */
 .ms_btn-blue:hover{
     border: 2px solid #2d64e6;
     box-shadow: inset 0px 0px 0px 2px #fff;
