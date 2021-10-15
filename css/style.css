@@ -57,13 +57,14 @@ header .navbar-light .navbar-nav .nav-link {
     background-color: #212529;
     border-color: #212529;
 }
-/* effetti hover della sez header */
+/* effetti hover con effetto inset della sez header */
 header .navbar-light .navbar-nav .nav-link:hover {
     color: #2d64e6;
 }
 .ms_btn-dark:hover {
     border: 2px solid #999;
-    box-shadow: inset 0px 0px 0px 2px #999;
+    box-shadow: inset 0px 0px 0px 2px #fff;
+    background-color: #999;
 }
 
 /* Jumbotron style */
@@ -103,11 +104,18 @@ header .navbar-light .navbar-nav .nav-link:hover {
     transition: all 1s;
 }
 
-/* effetti hover della sez jumbo */
-.ms_btn-red:hover {
+/* effetti hover outset della sez jumbo */
+/* .ms_btn-red:hover {
     border: 2px solid #000;
     box-shadow: 0px 0px 0px 2px #dd4d21;
+} */
+/* effetto hover inset */
+.ms_btn-red:hover {
+    border: 2px solid #dd4d21;
+    box-shadow: inset 0px 0px 0px 2px #000;
 }
+
+
 
 #jumbotron div:nth-child(2) img:hover{
     margin-top: 0;
@@ -133,10 +141,6 @@ header .navbar-light .navbar-nav .nav-link:hover {
     background-color: #2d64e6;
     border-color: #2d64e6;
 }
-.ms_btn-blue:hover{
-    border: 2px solid #fff;
-    box-shadow: 0px 0px 0px 2px #2d64e6;
-}
 .ms_sez-white img{
     width: 100%;
 }
@@ -154,6 +158,16 @@ header .navbar-light .navbar-nav .nav-link:hover {
 }
 #presentation .container div:nth-child(3) .col.select>img{
     opacity: 1;
+}
+/* effetto hover outset button blue */
+/* .ms_btn-blue:hover{
+    border: 2px solid #fff;
+    box-shadow: 0px 0px 0px 2px #2d64e6;
+} */
+/* effetto inset button blue */
+.ms_btn-blue:hover{
+    border: 2px solid #2d64e6;
+    box-shadow: inset 0px 0px 0px 2px #fff;
 }
 
 @media all and (min-width:992px) {
@@ -211,12 +225,12 @@ header .navbar-light .navbar-nav .nav-link:hover {
 
 /* effetti hover sezione PS+ PS Now */
 .ms_btn-grey:hover{
-    border: 2px solid #bebcbb;
-    box-shadow: 0px 0px 0px 2px #d9dadc;
+    /* border: 2px solid #bebcbb; */
+    box-shadow: 0px 0px 10px 2px #d9dadc;
 }
 .ms_btn-light-grey:hover{
-    border: 2px solid #161c3b;
-    box-shadow: 0px 0px 0px 2px #f5f5f5;
+    border: 2px solid #f5f5f5;
+    box-shadow: inset 0px 0px 0px 2px #161c3b;
 }
 /* footer */
 footer{
